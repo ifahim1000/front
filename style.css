@@ -10,6 +10,7 @@ nav{
     background: #1b1b1b;
     width: 100%;
     padding: 10px 0;
+    z-index: 12;
 
 }
 nav .menu{
@@ -45,4 +46,53 @@ nav .menu{
 .menu ul li a:hover{
     background: white;
     color: black;
+}
+.img{
+    background: url(pic.jpg) no-repeat;
+    height : 100vh;
+    width : 30%;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    float:left;
+}
+.img::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.img2{
+    background: url(pic2.jpg) no-repeat;
+    height : 100vh;
+    width : 40%;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    float:left;
+}
+.img2::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.img3{
+    background: url(pic3.jpg) no-repeat;
+    height : 100vh;
+    width : 30%;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    float:left;
+}
+.img3::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
 }
